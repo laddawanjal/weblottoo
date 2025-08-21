@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สุ่มลอตโต้ OD</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #E6E3FF 0%, #F4E6FF 30%, #FFE6F7 60%, #FFEBF0 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 100%;
+            width: 100%;
+            padding: 60px;
+        }
+
+        .title {
+            font-size: 5rem;
+            font-weight: bold;
+            color: #8B5A8C;
+            margin-bottom: 40px;
+        }
+
+        .subtitle {
+            font-size: 1.8rem;
+            color: #A0A0A0;
+            margin-bottom: 60px;
+        }
+
+        .menu-options {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .menu-button {
+            display: block;
+            text-decoration: none;
+            background: linear-gradient(135deg, #DDA0DD 0%, #F0C0F0 100%);
+            color: #6B456B;
+            padding: 35px 50px;
+            border-radius: 15px;
+            font-size: 1.8rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .menu-button:hover {
+            transform: translateY(-3px);
+            background: linear-gradient(135deg, #E8B0E8 0%, #F5D0F5 100%);
+            color: #5A405A;
+        }
+
+        .icon {
+            font-size: 4rem;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 30px;
+            }
+            
+            .title {
+                font-size: 3.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1.4rem;
+            }
+            
+            .menu-button {
+                font-size: 1.4rem;
+                padding: 25px 35px;
+            }
+            
+            .icon {
+                font-size: 3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">🎲</div>
+        <h1 class="title">สุ่มลอตโต้ OD</h1>
+        <p class="subtitle">เลือกวันที่ต้องการเล่น</p>
+        
+        <div class="menu-options">
+            <a href="lottoday1.html" class="menu-button">
+                📅 วันที่ 1
+            </a>
+            <a href="lottoday2.html" class="menu-button">
+                📅 วันที่ 2
+            </a>
+            <a href="lottoday3.html" class="menu-button">
+                📅 วันที่ 3
+            </a>
+        </div>
+    </div>
+</body>
+</html>
